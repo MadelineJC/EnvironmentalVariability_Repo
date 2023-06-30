@@ -9,7 +9,7 @@ There are three ways to replicate this work:
 
 1. Re-generate data using scripts in the “`Data_Generation`” folder, and use resulting outputs (stored in "`Generated_Outputs`" folder) to run main scripts (`1_ThermalPerformanceCurves.R`, ..., `9_NegRepRate.R`).
 	* This option will require you to make a couple adjustments to `3_CompetitiveOutcomes_Analysis.R` and `7_Transmission_TwoParasite_AUC.R`
-2. Download data from [Federalised Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/) (doi:10.20383/103.0764) into "`Data`" folder and run main scripts (`1_ThermalPerformanceCurves.R`, ..., `9_NegRepRate.R`).
+2. Download data from [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/) (doi:10.20383/103.0764) into "`Data`" folder and run main scripts (`1_ThermalPerformanceCurves.R`, ..., `9_NegRepRate.R`).
 3. Use data supplied in "`Data`" folder to run select main scripts (`1_ThermalPerformanceCurves.R`, `2_Simulation_Analysis.R`, `4_Rarity_Analysis.R`, `5_Transmission_DemStoch_Sim-AUC.R`, `6_Transmisson_SingleParasite_Sim.R`, `8_Transmission_Analysis.R`, `9_NegRepRate.R`), and view outputs from remaining main scripts (`3_CompetitiveOutcomes_Analysis.R`, `7_Transmission_TwoParasite_AUC.R`) in "`Outputs`" folder.
 
 Regardless of how you choose to replicate the work, clone this repository, and load “`EnvironmentalVariability_Repo.Rproj`”. If you run any of the main scripts (listed below), please do so in numerical order.
@@ -32,7 +32,7 @@ A guide to the “`Data`” folder:
 	* Contains time series and persistence vectors (containing the number of time steps for which both parasites populations had abundances greater than one).
 3. `EnvStoch-DemEnvStoch_PV_Outputs`
 	* Does not contain time series, but does contain persistence vectors (containing the number of time steps for which both parasites populations had abundances greater than one).
-		* These time series data files range between 6GB and 22GB, and are presently housed in the **[Federalised Research Data Repository (FRDR)]**. Download the data into the `EnvStoch-DemEnvStoch_PV_Outputs` folder to use (`EnvironmentalVariability_Repo/Data/EnvStoch-DemEnvStoch_PV_Outputs`).
+		* These time series data files range between 6GB and 22GB, and are presently housed in the **[Federated Research Data Repository (FRDR)]**. Download the data into the `EnvStoch-DemEnvStoch_PV_Outputs` folder to use (`EnvironmentalVariability_Repo/Data/EnvStoch-DemEnvStoch_PV_Outputs`).
 		
 A guide to the "`Outputs`" folder:
 

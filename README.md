@@ -1,7 +1,7 @@
 # EnvironmentalVariability_Repo
-This repository contains scripts and data to replicate “**Environmental variability can promote parasite diversity within hosts and transmission among hosts**”, by Madeline Jarvis-Cross (madeline.jarvis.cross@mail.utoronto.ca) and Martin Krkošek (martin.krkosek@utoronto.ca). 
+This repository contains scripts and data to replicate “**Environmental variability can prolong parasite co-occurrence within hosts and promote transmission among hosts**”, by Madeline Jarvis-Cross (madeline.jarvis.cross@mail.utoronto.ca) and Martin Krkošek (martin.krkosek@utoronto.ca). 
 
-In this project, we use mathematical models and simulations to ask how environmental variability may affect the viability and longevity of within-host parasite diversity and among-host transmission. 
+Here, we use mathematical models and simulations to ask how environmental variability may affect the viability and longevity of within-host parasite diversity and among-host transmission. 
 
 ---
 
